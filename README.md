@@ -22,7 +22,13 @@ After finising the installation you need to run the mt2.py file,
     python mt2.py
     
 Then the GUI software will be opened. The interface of the GUI will be, 
-  
+
+
+![openGUI](images/OpenGUI.png)
+
+Then you can play with the GUI software to create the inputs and the inputs for further calculations.
+
+![openGUI](images/infoGUI.png)
 
 
 
