@@ -9,7 +9,7 @@ To create python enviorment follow this steps,<br>
     python -m venv myenv
 Then to activate the enviorment follow the steps,
   ### For Windows
-    ./myenv/Scripts/activate
+    .\myvenv\Scripts\activate
   ### For Linux
     source myenv/bin/activate
     
