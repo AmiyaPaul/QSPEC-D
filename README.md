@@ -1,35 +1,54 @@
 # QSPEC-D
 
-This is a GUI based software to create input file compatable with QSPEC-D running software. This is a very primitive version of 
-the softwere and it is still under development. 
+This is a GUI-based software to create an input file compatible with the QSPEC-D running software. This is a very primitive version of the software and is still under development.
 
-To use this python based GUI software you need to install python in your system and you need to create a new python enviorment. 
-To create python enviorment follow this steps,<br>
+To use this Python-based GUI software, you need to install Python on your system and create a new Python environment.  
+To create a Python environment, follow these steps:
 
-    python -m venv myenv
-Then to activate the enviorment follow the steps,
-  ### For Windows
-    .\myvenv\Scripts\activate
-  ### For Linux
-    source myenv/bin/activate
-    
-After activating your enviorment you need to install some python libraries by using pip command,
+```sh
+python -m venv myenv
+```
 
-    pip install numpy matplotlib scipy tqdm customtkinter
-    
-After finising the installation you need to run the mt2.py file,
+Then, activate the environment using the following steps:
 
-    python mt2.py
-    
-Then the GUI software will be opened. The interface of the GUI will be, 
+### For Windows  
+```sh
+.\myenv\Scripts\activate
+```  
+### For Linux  
+```sh
+source myenv/bin/activate
+```
 
+After activating your environment, install the required Python libraries using pip:
+
+```sh
+pip install numpy matplotlib scipy tqdm customtkinter
+```
+
+After finishing the installation, run the `mt2.py` file:
+
+```sh
+python mt2.py
+```
+
+This will open the GUI software. The interface of the GUI will look like this:
 
 ![openGUI](images/OpenGUI.png)
 
-Then you can play with the GUI software to create the inputs and the inputs for further calculations.
+Now, you can interact with the GUI software to create input files for further calculations.
 
 ![openGUI](images/infoGUI.png)
 
-
+---
 
 # RunQSPEC-D
+
+To run the calculation, place the input file inside the `RunQSPEC-D` folder. Open the `main.py` file and update the filename to match your input file name. Then, run the file while the environment is active:
+
+```sh
+python main.py > out.log
+```
+
+Wait for some time to get the results. You will receive the `out.log` file, which contains all the details of the calculation, and a `.dat` file with absorption spectra data as your result.
+
