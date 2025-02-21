@@ -22,13 +22,13 @@ More details about the modeling can be found in these references. Feel free to c
 
 # Installation
 
-1. Install Python and create enviorment:
+1. Install Python and create environment:
 
 ```sh
 python -m venv myenv
 ```
 
-2. Activate Python enviorment:
+2. Activate Python environment:
 
 ### Windows  
 ```sh
