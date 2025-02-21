@@ -22,31 +22,30 @@ More details about the modeling can be found in these references. Feel free to c
 
 # Installation
 
-To use this Python-based GUI software, you need to install Python on your system and create a new Python environment.  
-To create a Python environment, follow these steps:
+1. Install Python and create enviorment:
 
 ```sh
 python -m venv myenv
 ```
 
-Then, activate the environment using the following steps:
+2. Activate Python enviorment:
 
-### For Windows  
+### Windows  
 ```sh
 .\myenv\Scripts\activate
 ```  
-### For Linux  
+### Linux  
 ```sh
 source myenv/bin/activate
 ```
 
-After activating your environment, install the required Python libraries using pip:
+3. Install libraries:
 
 ```sh
 pip install numpy matplotlib scipy tqdm customtkinter
 ```
 
-After finishing the installation, run the `mt2.py` file:
+4. Run:
 
 ```sh
 python mt2.py
@@ -62,7 +61,7 @@ Now, you can interact with the GUI software to create input files for further ca
 
 ---
 
-# RunQSPEC-D
+5. RunQSPEC-D
 
 To run the calculation, place the input file inside the `RunQSPEC-D` folder. Open the `main.py` file and update the filename to match your input file name. Then, run the file while the environment is active:
 
@@ -70,5 +69,7 @@ To run the calculation, place the input file inside the `RunQSPEC-D` folder. Ope
 python main.py > out.log
 ```
 
-Wait for some time to get the results. You will receive the `out.log` file, which contains all the details of the calculation, and a `.dat` file with absorption spectra data as your result.
+6. OUTPUT
+
+Once the simulation is over, an `out.log` file will be generated that contains all the details of the calculation. Additionally, a `.dat` file will be generated contain information about the infrared absorption spectrum of polaron.
 
