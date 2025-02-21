@@ -13,11 +13,11 @@ QSPEC-D is a software package that simulates the infrared spectrum of polarons i
 
 More details about the modeling can be found in these references. Feel free to contact Raja at rghosh8@ncsu.edu to know more about the theory and modeling.
 
-1.Excitons and Polarons in Organic Materials, Ghosh, R. and Spano, F.  Acc. Chem. Res. 2020, 53, 10, 201–2211. <br><br>
-2.Polaron Delocalization in Conjugated Polymer Films, Ghosh, R.; Pochas, C. M.; Spano, F. C. J. Phys. Chem. C 2016, 120, 11394−11406. <br><br>
-3.Spectral Signatures and Spatial Coherence of Bound and Unbound  Polarons in P3HT Films: Theory vs Experiment, Ghosh, R.; Chew, A.R.;  Onorato, J.; Pakhnyuk, V.; Luscombe, C. K.; Salleo, A.; Spano, F.C., ", J.  Phys. Chem. C 2018, 122 (18048) <br><br>
-4.Anisotropic Polaron Delocalization in Conjugated Homopolymers and  Donor–Acceptor Copolymers, Ghosh, R.; Luscombe, C. K.; Hambsch, M.; Mansfeld, S.C.B; Salleo, A.; Spano, F.C., ", J. Phys. Chem. C 2018, 122 (18048) <br><br>
-5.Connecting the Dots for Fundamental Understanding of Structure– Photophysics–Property Relationships of COFs, MOFs, and Perovskites using a Multiparticle Holstein Formalism, Ghosh, R. and Paesani, F. Chem. Sci. 2023, 14, 1040-1064.
+1. Excitons and Polarons in Organic Materials, Ghosh, R. and Spano, F.  Acc. Chem. Res. 2020, 53, 10, 201–2211. <br><br>
+2. Polaron Delocalization in Conjugated Polymer Films, Ghosh, R.; Pochas, C. M.; Spano, F. C. J. Phys. Chem. C 2016, 120, 11394−11406. <br><br>
+3. Spectral Signatures and Spatial Coherence of Bound and Unbound  Polarons in P3HT Films: Theory vs Experiment, Ghosh, R.; Chew, A.R.;  Onorato, J.; Pakhnyuk, V.; Luscombe, C. K.; Salleo, A.; Spano, F.C., ", J.  Phys. Chem. C 2018, 122 (18048) <br><br>
+4. Anisotropic Polaron Delocalization in Conjugated Homopolymers and  Donor–Acceptor Copolymers, Ghosh, R.; Luscombe, C. K.; Hambsch, M.; Mansfeld, S.C.B; Salleo, A.; Spano, F.C., ", J. Phys. Chem. C 2018, 122 (18048) <br><br>
+5. Connecting the Dots for Fundamental Understanding of Structure– Photophysics–Property Relationships of COFs, MOFs, and Perovskites using a Multiparticle Holstein Formalism, Ghosh, R. and Paesani, F. Chem. Sci. 2023, 14, 1040-1064.
 
 
 # Installation
